@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+    .b2 {
+        top: 50%;
+        left: 10%;
+        transform: translate(-100%, 120%);
+    }
+    .b1 {
+        top: 100%;
+        left: 20%;
+        transform: translate(-10%, -225%);
+    }
+    .b3 {
+        top: 50%;
+        left: 100%;
+        transform: translate(50%, 150%);
+    }
+}
